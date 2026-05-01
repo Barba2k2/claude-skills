@@ -1,29 +1,24 @@
 # Claude Skills Marketplace
 
 > A curated, open registry of skills for [Claude Code](https://claude.ai/code).  
-> Install any skill directly from the command line.
+> Add this marketplace in Claude Code via `/plugins` → **Add Marketplace** → `Barba2k2/claude-skills`
 
 ---
 
-## How to install a skill
+## How to add this marketplace
 
-```bash
-claude skill install <repo>
-```
-
-Example:
-
-```bash
-claude skill install Barba2k2/image-geneartor-gpt-image-2
-```
+1. Open Claude Code
+2. Run `/plugins`
+3. Select **Add Marketplace**
+4. Enter: `Barba2k2/claude-skills`
 
 ---
 
 ## Skills
 
-| Skill | Description | Tags | Install |
-|---|---|---|---|
-| [image-prompt-generator](skills/image-prompt-generator/SKILL.md) | Expert skill for crafting optimized prompts for OpenAI's GPT Image models (gpt-image-2). Covers generation and editing: logos, infographics, product photos, UI mockups, ads, photorealistic portraits, educational diagrams, pitch deck slides, style transfer, virtual try-on, comic strips, and more. | `images` `ai` `prompts` `design` `marketing` | `claude skill install Barba2k2/claude-skills/skills/image-prompt-generator` |
+| Skill | Description | Tags |
+|---|---|---|
+| [image-prompt-generator](skills/image-prompt-generator/SKILL.md) | Expert skill for crafting optimized prompts for OpenAI's GPT Image models (gpt-image-2). Covers generation and editing: logos, infographics, product photos, UI mockups, ads, photorealistic portraits, educational diagrams, pitch deck slides, style transfer, virtual try-on, comic strips, and more. | `images` `ai` `prompts` `design` `marketing` |
 
 ---
 
@@ -32,28 +27,35 @@ claude skill install Barba2k2/image-geneartor-gpt-image-2
 Want to add your skill to this registry?
 
 1. Fork this repo
-2. Add your skill to `registry.json` following the existing format
-3. Open a Pull Request
+2. Copy your skill into `skills/<your-skill-name>/` (must contain `SKILL.md`)
+3. Add an entry to `registry.json`
+4. Open a Pull Request
 
-### registry.json format
+### Skill structure
+
+```
+skills/
+└── your-skill-name/
+    ├── SKILL.md          ← required (frontmatter: name, description)
+    └── references/       ← optional supporting docs
+```
+
+### registry.json entry format
 
 ```json
 {
   "name": "your-skill-name",
   "description": "What your skill does (1-2 sentences)",
-  "repo": "github-username/repo-name",
-  "branch": "main",
+  "path": "skills/your-skill-name",
   "version": "1.0.0",
   "tags": ["tag1", "tag2"],
-  "author": "github-username",
-  "install": "claude skill install github-username/repo-name"
+  "author": "github-username"
 }
 ```
 
 ### Skill requirements
 
-- Must have a `SKILL.md` at the root of the repository
-- `SKILL.md` must include a valid frontmatter block with `name` and `description`
+- Must have a `SKILL.md` with valid frontmatter (`name` + `description`)
 - Must be in English
 - Must be original content
 
