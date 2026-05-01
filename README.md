@@ -19,7 +19,7 @@
 | Skill | Description | Tags |
 |---|---|---|
 | [image-prompt-generator](skills/image-prompt-generator/SKILL.md) | Expert skill for crafting optimized prompts for OpenAI's GPT Image models (gpt-image-2). Covers generation and editing: logos, infographics, product photos, UI mockups, ads, photorealistic portraits, educational diagrams, pitch deck slides, style transfer, virtual try-on, comic strips, and more. | `images` `ai` `prompts` `design` `marketing` |
-| [android-reverse-engineering](https://github.com/SimoneAvogadro/android-reverse-engineering-skill) | Decompiles Android APK/XAPK/JAR/AAR files and extracts HTTP APIs — Retrofit endpoints, OkHttp calls, hardcoded URLs, and authentication patterns — so you can document and reproduce them without the original source code. | `android` `reverse-engineering` `apk` `decompile` `security` |
+| [android-reverse-engineering](skills/android-reverse-engineering/SKILL.md) | Decompiles Android APK/XAPK/JAR/AAR files and extracts HTTP APIs — Retrofit endpoints, OkHttp calls, hardcoded URLs, and authentication patterns — so you can document and reproduce them without the original source code. | `android` `reverse-engineering` `apk` `decompile` `security` |
 
 ---
 
