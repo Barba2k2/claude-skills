@@ -11,6 +11,14 @@
       "path": "skills/image-prompt-generator",
       "tags": ["images", "ai", "prompts", "design", "marketing"],
       "author": "Barba2k2"
+    },
+    {
+      "name": "android-reverse-engineering",
+      "description": "Decompiles Android APK/XAPK/JAR/AAR files and extracts HTTP APIs — Retrofit endpoints, OkHttp calls, hardcoded URLs, and authentication patterns — so you can document and reproduce them without the original source code.",
+      "version": "1.1.0",
+      "source": "SimoneAvogadro/android-reverse-engineering-skill",
+      "tags": ["android", "reverse-engineering", "apk", "decompile", "api-extraction", "security"],
+      "author": "SimoneAvogadro"
     }
   ]
 }

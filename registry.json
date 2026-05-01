@@ -8,5 +8,15 @@
     "tags": ["images", "ai", "prompts", "gpt-image-2", "design", "marketing"],
     "author": "Barba2k2",
     "install": "claude skill install Barba2k2/image-geneartor-gpt-image-2"
+  },
+  {
+    "name": "android-reverse-engineering",
+    "description": "Decompiles Android APK/XAPK/JAR/AAR files and extracts HTTP APIs — Retrofit endpoints, OkHttp calls, hardcoded URLs, and authentication patterns — so you can document and reproduce them without the original source code.",
+    "repo": "SimoneAvogadro/android-reverse-engineering-skill",
+    "branch": "master",
+    "version": "1.1.0",
+    "tags": ["android", "reverse-engineering", "apk", "decompile", "api-extraction", "security"],
+    "author": "SimoneAvogadro",
+    "install": "/plugin marketplace add SimoneAvogadro/android-reverse-engineering-skill"
   }
 ]
