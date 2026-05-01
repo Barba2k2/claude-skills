@@ -27,6 +27,14 @@
       "path": "skills/video-use",
       "tags": ["video", "editing", "ffmpeg", "manim", "subtitles", "ai"],
       "author": "browser-use"
+    },
+    {
+      "name": "cybersecurity-scan",
+      "description": "Automated security audit across 8 domains and 90 checks (secrets, dependencies, code, infrastructure, IAM, data privacy, logs, backup). Use for pre-deploy reviews, posture assessments, vulnerability scans, large PR validation, or periodic security reviews.",
+      "version": "1.0.0",
+      "path": "skills/cybersecurity-scan",
+      "tags": ["security", "audit", "owasp", "cve", "pentest", "hardening"],
+      "author": "Barba2k2"
     }
   ]
 }
