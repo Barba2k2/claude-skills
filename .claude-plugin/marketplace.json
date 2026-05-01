@@ -1,0 +1,15 @@
+{
+  "name": "Barba2k2 Claude Skills",
+  "description": "Open registry of skills for Claude Code",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "image-prompt-generator",
+      "description": "Expert skill for crafting optimized prompts for OpenAI's GPT Image models (gpt-image-2). Covers generation and editing: logos, infographics, product photos, UI mockups, ads, photorealistic portraits, educational diagrams, pitch deck slides, style transfer, virtual try-on, comic strips, and more.",
+      "version": "1.0.0",
+      "path": "skills/image-prompt-generator",
+      "tags": ["images", "ai", "prompts", "design", "marketing"],
+      "author": "Barba2k2"
+    }
+  ]
+}
