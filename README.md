@@ -20,6 +20,7 @@
 |---|---|---|
 | [image-prompt-generator](skills/image-prompt-generator/SKILL.md) | Expert skill for crafting optimized prompts for OpenAI's GPT Image models (gpt-image-2). Covers generation and editing: logos, infographics, product photos, UI mockups, ads, photorealistic portraits, educational diagrams, pitch deck slides, style transfer, virtual try-on, comic strips, and more. | `images` `ai` `prompts` `design` `marketing` |
 | [android-reverse-engineering](skills/android-reverse-engineering/SKILL.md) | Decompiles Android APK/XAPK/JAR/AAR files and extracts HTTP APIs — Retrofit endpoints, OkHttp calls, hardcoded URLs, and authentication patterns — so you can document and reproduce them without the original source code. | `android` `reverse-engineering` `apk` `decompile` `security` |
+| [video-use](skills/video-use/SKILL.md) | Edit any video by conversation. Transcribe, cut, color grade, generate overlay animations, burn subtitles — for talking heads, montages, tutorials, travel, interviews. No presets, no menus. Ask questions, confirm the plan, execute, iterate, persist. | `video` `editing` `ffmpeg` `manim` `subtitles` `ai` |
 
 ---
 
@@ -64,7 +65,7 @@ skills/
 
 ## Browse by tag
 
-`images` · `ai` · `prompts` · `design` · `marketing` · `android` · `reverse-engineering` · `apk` · `security`
+`images` · `ai` · `prompts` · `design` · `marketing` · `android` · `reverse-engineering` · `apk` · `security` · `video` · `editing` · `ffmpeg` · `manim` · `subtitles`
 
 ---
 
