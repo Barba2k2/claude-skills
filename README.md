@@ -23,7 +23,7 @@ claude skill install Barba2k2/image-geneartor-gpt-image-2
 
 | Skill | Description | Tags | Install |
 |---|---|---|---|
-| [image-prompt-generator](https://github.com/Barba2k2/image-geneartor-gpt-image-2) | Expert skill for crafting optimized prompts for OpenAI's GPT Image models (gpt-image-2). Covers generation and editing: logos, infographics, product photos, UI mockups, ads, photorealistic portraits, educational diagrams, pitch deck slides, style transfer, virtual try-on, comic strips, and more. | `images` `ai` `prompts` `design` `marketing` | `claude skill install Barba2k2/image-geneartor-gpt-image-2` |
+| [image-prompt-generator](skills/image-prompt-generator/SKILL.md) | Expert skill for crafting optimized prompts for OpenAI's GPT Image models (gpt-image-2). Covers generation and editing: logos, infographics, product photos, UI mockups, ads, photorealistic portraits, educational diagrams, pitch deck slides, style transfer, virtual try-on, comic strips, and more. | `images` `ai` `prompts` `design` `marketing` | `claude skill install Barba2k2/claude-skills/skills/image-prompt-generator` |
 
 ---
 
