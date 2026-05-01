@@ -1,6 +1,6 @@
 {
   "name": "barba2k2-claude-skills",
-  "owner": "Barba2k2",
+  "owner": { "login": "Barba2k2" },
   "description": "Open registry of skills for Claude Code",
   "version": "1.0.0",
   "plugins": [
