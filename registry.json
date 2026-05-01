@@ -18,5 +18,15 @@
     "tags": ["android", "reverse-engineering", "apk", "decompile", "api-extraction", "security"],
     "author": "SimoneAvogadro",
     "install": "/plugin marketplace add SimoneAvogadro/android-reverse-engineering-skill"
+  },
+  {
+    "name": "video-use",
+    "description": "Edit any video by conversation. Transcribe, cut, color grade, generate overlay animations, burn subtitles — for talking heads, montages, tutorials, travel, interviews. No presets, no menus. Ask questions, confirm the plan, execute, iterate, persist.",
+    "repo": "browser-use/video-use",
+    "branch": "main",
+    "version": "1.0.0",
+    "tags": ["video", "editing", "ffmpeg", "manim", "subtitles", "ai"],
+    "author": "browser-use",
+    "install": "claude skill install browser-use/video-use"
   }
 ]
